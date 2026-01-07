@@ -9,7 +9,7 @@ btn.addEventListener("click", () => {
   number++;
   count.textContent = number;
 
-  if (number === 10) {
+  if (number >= 10) {
     message.textContent = "🎉 10回達成！";
   }
 });
