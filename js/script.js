@@ -1,6 +1,9 @@
 const btn = document.getElementById("btn");
-const title = document.getElementById("title");
+const count = document.getElementById("count");
+
+let number = 0;
 
 btn.addEventListener("click", () => {
-  title.textContent = "クリックされた！";
+  number++;
+  count.textContent = number;
 });
